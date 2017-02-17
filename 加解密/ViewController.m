@@ -21,6 +21,9 @@
     //解密
     NSDictionary *decrydic =  [FBEncryptorAES  curdecryptData:encdata];
     NSLog(@"%@",decrydic[@"weather"]);
+    
+    NSLog(@"hello");
+    
 }
 
 
